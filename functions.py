@@ -9,8 +9,16 @@
 
 # TODO: Print 10 users' **name** and  **age**, and print if the user is **adult** or **underage**
 # You can make up some random info, or friends. It does not matter. (Main Task - 3 tokens)
+person1_name = "Ali"
+person1_age = 30
 
-
+print(f"user name is: {person1_name}")
+print(f"user age is: {person1_age}")
+if (person1_age >=18):
+    print(f"user {person1_name} is an adult")
+else:
+    print(f"user {person1_name} is an legally underage")
+  
 # TODO: Can you print all 10 users without repeating the function you created? (Subtask - 2 tokens)
 # hint: `list` & `loop` 
 
