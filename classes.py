@@ -21,6 +21,6 @@ class Person:
 
 
 # TODO: Can you pretend "classes.py" is your little fancy library 
-#  and create `Person` from another script? (Subtask - 1 Token)
+#  and instantiate `Person` object from another script? (Subtask - 1 Token)
 p = Person("Ahmed", 24) # object
 p.introduce() 
